@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "title": "NY HAVANA Tarifs RC Automobile",
+    "effective_date": "2006-01-16",
+    "currency": "Ariary",
+    "global_increase": "15%"
+  },
+  "common_rules": {
+    "minimum_values": {
+      "damage_vat_included": 4760000,
+      "damage_vat_excluded": 3100000,
+      "fire_theft": 2000000,
+      "glass": 240000
+    },
+    "franchise": {
+      "description": "10% of claim amount, minimum 60000 Ar for all categories",
+      "minimum_amount": 60000,
+      "percentage": 10
+    },
+    "daily_indemnity_limit": 70000,
+    "max_indemnity": 350000,
+    "gem_surcharge": {
+      "rate": 15,
+      "covered_risks": ["BCD_BG", "CD_BG", "BC"]
+    },
+    "tire_damage": {
+      "rate": 5,
+      "minimum_vat_included": 12000,
+      "minimum_vat_excluded": 8000
+    },
+    "policy_fees": {
+      "single_policy": 3500,
+      "fleet_policy_base": 3000,
+      "fleet_per_vehicle": 200
+    },
+    "vehicle_age_rules": {
+      "new_subscription": "1 to 5 years",
+      "existing_portfolio": "5 to 10 years"
+    },
+    "fleet_discount": {
+      "vehicles_3": 10,
+      "vehicles_4_plus": 15
+    },
+    "natural_phenomena": {
+      "description": "Earthquakes, volcanic eruptions, floods, typhoons, hurricanes, tornadoes, cyclones or any other meteorological catastrophe",
+      "free_in_risk_B": true
+    }
+  },
+  "tariffs": {
+    "tariff_1": {
+      "name": "Promenade et Affaire - MOTO",
+      "categories": [
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "Jusqu'à 2",
+          "net_premium": null,
+          "fiscal_power_range": null,
+          "moto_cc_range": "Jusqu'à 125 cms",
+          "moto_premium": 31280
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "3 à 6",
+          "net_premium": 72910,
+          "fiscal_power_range": "2cv",
+          "fiscal_premium": 39100
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "2 à 4",
+          "net_premium": 72910,
+          "fiscal_power_range": "2cv",
+          "fiscal_premium": 39100
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "7 à 8",
+          "net_premium": 79580,
+          "fiscal_power_range": "3cv",
+          "fiscal_premium": 44160
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "5",
+          "net_premium": 79580,
+          "fiscal_power_range": "3cv",
+          "fiscal_premium": 44160
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "9 à 10",
+          "net_premium": 81420,
+          "fiscal_power_range": "4cv",
+          "fiscal_premium": 53590
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "6 à 7",
+          "net_premium": 81420,
+          "fiscal_power_range": "4cv",
+          "fiscal_premium": 53590
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "11 à 12",
+          "net_premium": 84410,
+          "fiscal_power_range": "5cv",
+          "fiscal_premium": 62100
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "8",
+          "net_premium": 84410,
+          "fiscal_power_range": "5cv",
+          "fiscal_premium": 62100
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "13 à 15",
+          "net_premium": 87170,
+          "fiscal_power_range": "6cv",
+          "fiscal_premium": 63020
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "9 à 10",
+          "net_premium": 87170,
+          "fiscal_power_range": "6cv",
+          "fiscal_premium": 63020
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "16 à 19",
+          "net_premium": 91310,
+          "fiscal_power_range": "7cv",
+          "fiscal_premium": 66240
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "11 à 13",
+          "net_premium": 91310,
+          "fiscal_power_range": "7cv",
+          "fiscal_premium": 66240
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "20 à 23",
+          "net_premium": 100970,
+          "fiscal_power_range": "8cv",
+          "fiscal_premium": 69460
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "14 à 16",
+          "net_premium": 100970,
+          "fiscal_power_range": "8cv",
+          "fiscal_premium": 69460
+        },
+        {
+          "type": "automobile",
+          "subtype": "essence",
+          "power_range": "24 et +",
+          "net_premium": 110400,
+          "fiscal_power_range": "9cv",
+          "fiscal_premium": 72910
+        },
+        {
+          "type": "automobile",
+          "subtype": "diesel",
+          "power_range": "17 et +",
+          "net_premium": 110400,
+          "fiscal_power_range": "9cv",
+          "fiscal_premium": 72910
+        }
+      ],
+      "specific_rules": {
+        "excess_horsepower_surcharge": 3312,
+        "minimum_damage_value": 4760000,
+        "minimum_premium_vat_included": 238000,
+        "minimum_premium_vat_excluded": 155000,
+        "trailer_surcharge": "10% of RC premium",
+        "damage_rate": "5%",
+        "tax_rate": "3.25% for vehicles aged 10 to 15 years",
+        "fire_rate": "1%",
+        "theft_rate": "1%",
+        "glass_rate": "5.41%",
+        "minimum_risk_duration": "3 months for All Risks"
+      }
+    },
+    "tariff_2": {
+      "name": "Transport de Personnes",
+      "subcategories": [
+        {
+          "name": "Transport à Titre Gratuit (TPTG)",
+          "code": "B",
+          "premiums": [
+            {"fiscal_power": "Jusqu'à 2", "premium": 80040},
+            {"fiscal_power": "3 à 6", "premium": 85560},
+            {"fiscal_power": "7 à 8", "premium": 95220},
+            {"fiscal_power": "9 à 10", "premium": 99590},
+            {"fiscal_power": "11 à 12", "premium": 106490},
+            {"fiscal_power": "13 à 15", "premium": 115460},
+            {"fiscal_power": "16 à 19", "premium": 122820},
+            {"fiscal_power": "20 à 23", "premium": 128800},
+            {"fiscal_power": "24 et +", "premium": 132480}
+          ]
+        },
+        {
+          "name": "Transport à Titre Payant (TPTP)",
+          "code": "Z, D, H, G",
+          "premiums": [
+            {"fiscal_power": "Jusqu'à 2", "premium": 80040},
+            {"fiscal_power": "3 à 6", "premium": 85560},
+            {"fiscal_power": "7 à 8", "premium": 95220},
+            {"fiscal_power": "9 à 10", "premium": 99590},
+            {"fiscal_power": "11 à 12", "premium": 106490},
+            {"fiscal_power": "13 à 15", "premium": 115460},
+            {"fiscal_power": "16 à 19", "premium": 122820},
+            {"fiscal_power": "20 à 23", "premium": 128800},
+            {"fiscal_power": "24 et +", "premium": 132480}
+          ]
+        }
+      ],
+      "specific_rules": {
+        "passenger_surcharge": 4080,
+        "daily_indemnity_limit": 70000,
+        "max_indemnity": 630000,
+        "paying_surcharge": "7200 Ar from the 6th paying seat",
+        "prohibited_plates": ["W-WW", "foreign registration"],
+        "trailer_surcharge": "20% of RC premium",
+        "damage_rate": "11%",
+        "collision_rates": {
+          "without_franchise": 6.48,
+          "with_franchise": 4.90
+        },
+        "fire_rate": 1.5,
+        "theft_rate": 1.5,
+        "glass_rate": 10.90,
+        "minimum_glass_value": 240000,
+        "school_rules": "Tariff 2 paying without surcharge",
+        "rental_rules": "Same as Taxi, mini-Bus and Car"
+      }
+    },
+    "tariff_3": {
+      "name": "Transport de Marchandises",
+      "subcategories": [
+        {
+          "name": "Transport Gratuit (Non Patentié)",
+          "code": "R.TMTG",
+          "multiplier": 2.30,
+          "premiums": [
+            {"fiscal_power": "Jusqu'à 2", "premium": null},
+            {"fiscal_power": "3 à 6", "premium": null},
+            {"fiscal_power": "7 à 8", "premium": null},
+            {"fiscal_power": "9 à 10", "premium": null},
+            {"fiscal_power": "11 à 12", "premium": null},
+            {"fiscal_power": "13 à 15", "premium": null},
+            {"fiscal_power": "16 à 19", "premium": null},
+            {"fiscal_power": "20 à 23", "premium": null},
+            {"fiscal_power": "24 et +", "premium": null}
+          ]
+        },
+        {
+          "name": "Transport Payant (Public Patentié)",
+          "code": "C.TMTP",
+          "multiplier": 2.30,
+          "premiums": [
+            {"fiscal_power": "Jusqu'à 2", "premium": 183770},
+            {"fiscal_power": "3 à 6", "premium": 196880},
+            {"fiscal_power": "7 à 8", "premium": 218940},
+            {"fiscal_power": "9 à 10", "premium": 229880},
+            {"fiscal_power": "11 à 12", "premium": 244720},
+            {"fiscal_power": "13 à 15", "premium": 265190},
+            {"fiscal_power": "16 à 19", "premium": 282440},
+            {"fiscal_power": "20 à 23", "premium": 296740},
+            {"fiscal_power": "24 et +", "premium": 304750}
+          ]
+        }
+      ],
+      "specific_rules": {
+        "daily_indemnity_limit": 70000,
+        "max_indemnity": 630000,
+        "prohibited_plates": ["W-18%", "foreign registration"],
+        "flammable_materials_surcharge": 100,
+        "passenger_surcharge": 4800,
+        "trailer_surcharge": "30% of RC premium",
+        "semi_trailer_surcharge": {
+          "under_3_5T": 20,
+          "13_001T_to_19T": 40,
+          "19_001T_to_26T": 50
+        },
+        "damage_rate": "9%",
+        "collision_rates": {
+          "without_franchise": 3.42,
+          "with_franchise": 2.72
+        },
+        "fire_rate": 1.5,
+        "theft_rate": 1.5,
+        "glass_rate": 9.72
+      }
+    },
+    "tariff_4": {
+      "name": "Garagistes et Concessionnaires",
+      "vehicle_categories": [
+        {
+          "type": "Standard",
+          "rates": [
+            {"cards": 1, "rc": 2042400, "damage": 1737600, "fire": 169000, "theft": 169000, "total": 4118900},
+            {"cards": 2, "rc": 3063600, "damage": 2606400, "fire": 253500, "theft": 253500, "total": 6177800},
+            {"cards": 3, "rc": 4084800, "damage": 3475200, "fire": 338000, "theft": 338000, "total": 8236800},
+            {"cards": 4, "rc": 5106000, "damage": 4344000, "fire": 422500, "theft": 422500, "total": 10295000},
+            {"cards": 5, "rc": 6127200, "damage": 5212800, "fire": 507000, "theft": 507000, "total": 12354800},
+            {"cards": 6, "rc": 7148400, "damage": 6081600, "fire": 591500, "theft": 591500, "total": 14413000},
+            {"cards": 7, "rc": 8169600, "damage": 6950400, "fire": 676000, "theft": 676000, "total": 16472000},
+            {"cards": 8, "rc": 9190800, "damage": 7819200, "fire": 760500, "theft": 760500, "total": 18531000},
+            {"cards": 9, "rc": 10212000, "damage": 8685000, "fire": 845000, "theft": 845000, "total": 20591000},
+            {"cards": 10, "rc": 11233200, "damage": 9556800, "fire": 929500, "theft": 929500, "total": 22649000}
+          ],
+          "additional_card": {
+            "rc": 1021200,
+            "damage": 999120,
+            "fire": 97175,
+            "theft": 97175,
+            "total": 2214670
+          }
+        },
+        {
+          "type": "Reduced",
+          "rates": [
+            {"cards": 1, "rc": 1573200, "damage": 1115400, "fire": 169000, "theft": 169000, "total": 3026600},
+            {"cards": 2, "rc": 2359800, "damage": 1673100, "fire": 253500, "theft": 253500, "total": 4539900},
+            {"cards": 3, "rc": 3146400, "damage": 2230800, "fire": 338000, "theft": 338000, "total": 6053200},
+            {"cards": 4, "rc": 3933000, "damage": 2788500, "fire": 422500, "theft": 422500, "total": 7566500},
+            {"cards": 5, "rc": 4719600, "damage": 3346200, "fire": 507000, "theft": 507000, "total": 9079800},
+            {"cards": 6, "rc": 5506200, "damage": 3903900, "fire": 591500, "theft": 591500, "total": 10593100},
+            {"cards": 7, "rc": 6292800, "damage": 4461600, "fire": 676000, "theft": 676000, "total": 12106400},
+            {"cards": 8, "rc": 7079400, "damage": 5019300, "fire": 760500, "theft": 760500, "total": 13619700},
+            {"cards": 9, "rc": 7866000, "damage": 5577000, "fire": 845000, "theft": 845000, "total": 15133000},
+            {"cards": 10, "rc": 8652600, "damage": 6134700, "fire": 929500, "theft": 929500, "total": 16646300}
+          ],
+          "additional_card": {
+            "rc": 786600,
+            "damage": 641355,
+            "fire": 97175,
+            "theft": 97175,
+            "total": 1622305
+          }
+        }
+      ],
+      "specific_rules": {
+        "exceptional_circulation": "10% per card for journeys beyond 50km up to 3 days",
+        "glass_premium": {"standard": 65000, "reduced": 21800},
+        "tire_damage": {"standard": 43600, "reduced": 28000},
+        "gem_insurance": "Not insurable for reduced category"
+      }
+    },
+    "tariff_5": {
+      "name": "Engins de chantier",
+      "premiums": [
+        {"essence_power": "Jusqu'à 6", "diesel_power": null, "premium": 53590},
+        {"essence_power": "7 à 8", "diesel_power": "Jusqu'à 4", "premium": 63020},
+        {"essence_power": "9 à 10", "diesel_power": "5", "premium": 66010},
+        {"essence_power": "11 à 12", "diesel_power": "6 à 7", "premium": 67390},
+        {"essence_power": "13 à 15", "diesel_power": "8", "premium": 74750},
+        {"essence_power": "16 à 19", "diesel_power": "9 à 10", "premium": 75900},
+        {"essence_power": "20 à 23", "diesel_power": "11 à 13", "premium": 81650},
+        {"essence_power": "24 et +", "diesel_power": "14 à 16", "premium": 87400}
+      ],
+      "specific_rules": {
+        "damage_rate": 1.80,
+        "fire_rate": 1,
+        "theft_rate": 1,
+        "glass_rate": 4.76,
+        "idr": 10000
+      }
+    },
+    "tariff_6": {
+      "name": "Véhicules de Types Spéciaux",
+      "letter": "J",
+      "categories": [
+        {
+          "type": "Tariff 1 (J)",
+          "vehicles": ["Ambulances", "Véhicules et engins de toute nature circulant sur aérodrome"]
+        },
+        {
+          "type": "Tariff 2 Gratuit",
+          "vehicles": ["Corbillards", "Fourgons funéraires"]
+        },
+        {
+          "type": "Tariff 3 Gratuit",
+          "vehicles": ["Véhicules de collectivités Publiques", "Tracteurs agricoles et forestiers avec ou sans chenilles"]
+        },
+        {
+          "type": "Tariff 3 Payant",
+          "vehicles": ["Véhicule de dépannage", "Véhicules remorqué +30%"]
+        }
+      ],
+      "note": "Pour tout véhicule non prévu dans les catégories 1 à 6, consulter le CEAM (Comité des Entreprises d'Assurances à Madagascar)"
+    }
+  }
+}
